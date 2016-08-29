@@ -1,0 +1,486 @@
+html { 
+  background: url(images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+}
+body {
+  max-width: 940px;
+  margin:0 auto;
+}
+#slide {
+  padding-top:20%;
+  width: 100%;
+  max-width: none;
+}
+.section{
+  height: 100vh;
+}
+
+.banner {
+  display: block;
+  padding-top: 20%;
+  padding-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.banner2  {
+  display: block;
+  padding-top: 15%; 
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+/* navigation bar*/
+
+#formsub {
+  position: relative;
+}
+nav {
+  position: fixed;
+  z-index: 99999;
+  text-align: center;
+  list-style-type: none;
+  right:0.1%;
+  width: 100%;
+  
+  overflow: hidden;
+  background:url(images/navbar.png) no-repeat center center;
+  margin-bottom: 100px;
+}
+
+li {
+    display: inline-block;
+    
+}
+li a {
+    display:inline-block; 
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    text-shadow: 2px 2px #000000;
+    font-family: 'Helldorado';
+    font-size: 1em;
+    font-variant: small-caps;
+    letter-spacing: 4px;
+    position: relative;
+    bottom:34px;
+    right:10px; 
+}
+/*animation navbar and menu buttons*/
+li a {
+  -webkit-transition:all 0.5s ease-out;
+  -moz-transition:all 0.5s ease-out;
+  -ms-transition:all 0.5s ease-out;
+  -o-transition:all 0.5s ease-out;
+  transition:all 0.5s ease-out;
+}
+
+li a:hover {
+  -webkit-transform:scale(1.3);
+  -moz-transform:scale(1.3);
+  -ms-transform:scale(1.3);
+  -o-transform:scale(1.3);
+  transform:scale(1.3);
+}
+
+
+.socialmedia {
+ position: relative;
+ left: 70px;
+ bottom: 24px;
+    
+}
+
+
+
+.logo {
+  position: relative;
+  top: 15px;
+  right: 80px;
+}
+
+/* scroll down button position and animation*/
+
+section.arrow{
+  height: 5px;
+  position: relative;
+  left:50.5%;
+
+}
+.scroll{
+  -webkit-animation: pulse linear .5s infinite;
+  animation: pulse linear .5s infinite;
+}
+@-webkit-keyframes pulse {
+  0% { width:40px; } 
+  50% { width:50px; } 
+  100% { width:40px; }
+}
+@keyframes pulse {
+  0% { height:32px; } 
+  50% { height:28px; } 
+  100% { height:22px; }
+}
+
+/*animation badge buttons */
+.badges img {
+  -webkit-transition:all .3s ease-out;
+  -moz-transition:all .3s ease-out;
+  -ms-transition:all .3s ease-out;
+  -o-transition:all .3s ease-out;
+  transition:all .3s ease-out;
+}
+
+.badges img:hover {
+  -webkit-transform:translate(0px,-10px);
+  -moz-transform:translate(0px,-10px);
+  -ms-transform:translate(0px,-10px);
+  -o-transform:translate(0px,-10px);
+  transform:translate(0px,-10px);
+}
+
+ .badges img {
+  padding-left:10%;
+  padding-top:8%;
+  position: relative;
+  left: 10.5%;
+
+}
+
+
+
+
+
+
+
+/* style of menu subpage */
+
+
+#mainmenu{
+  background:url(images/paper.png) no-repeat center center;
+  background-position: top;
+  background-size: 100% 100%;
+  overflow: auto;
+}
+
+#menu{
+  position: relative;
+  top: 40px;
+  padding: 0px;
+  list-style: none;
+  padding-left: 7%;
+   
+}
+
+#menu li{
+  padding-top: 0px;
+}
+
+.salad{
+  height: 50px;
+  
+}
+
+
+
+th.food{
+ border-bottom:1pt dotted black; 
+}
+
+th.price{
+ border-bottom:1pt dotted black; 
+}
+
+.pizza{
+  height: 40px;
+
+}
+
+.burger{
+  height: 40px;
+  
+  
+}
+
+
+.steak{
+  height: 50px;
+  
+}
+
+.wine{
+  height: 50px;
+  
+}
+
+.beer{
+  height: 50px;
+  
+}
+
+.softdrink{
+  height: 50px;
+  
+  
+}
+
+.coffee{
+  height: 50px;
+  
+  
+}
+
+
+
+
+table{
+  
+  width: 90%;
+}
+
+
+#menucontent{
+text-decoration: none; 
+width: 90%;
+padding-left: 10%;
+font-family: Algerian;
+padding-bottom: 5%;
+
+}
+
+th.food{
+  text-align: left;
+
+}
+
+th.price{
+  text-align: right;
+  }
+
+
+/*style Did you Know subpage */ 
+
+
+
+
+ #didyouknow{
+  background:url(images/retrobackground.png) no-repeat;
+  background-position: center;
+  background-size: 85% 100%;
+  height: 500px;
+}
+
+#didyouknow p {
+  position: relative;
+  display: inline-block;
+  overflow: auto;
+  text-shadow: 2px 2px #000000;
+  color:#fff;
+  font-family: Algerian;
+  width:40%;
+  height: 40%; 
+  float:left;
+  padding-left: 16%;
+  padding-top: 16%;
+ }
+
+ .mackie {
+  position: relative;
+  overflow: auto;
+  padding-left: 6%;
+  padding-top: 17%;
+  height:40%;
+ }
+
+.wood {
+  position: absolute;
+  width: 60%;
+  margin-left: 5%;
+  margin-top: -150px;
+}
+
+#stories {
+  position: relative;
+}
+
+.story {
+  display: inline-block;
+  position: absolute;
+  color: #fff;
+  width:20%;
+  top: 40%;
+  left:30%;
+}
+
+.picright {
+  position: absolute;
+  display: inline-block;
+  width: 20%; 
+  top: 43%;
+  right: 30%;
+  border-radius: 10px;
+}
+
+ 
+.readmore a{
+  position: relative;
+  left: -10%;
+  color: #fff;
+}
+
+
+
+
+
+
+/*style contact subpage */
+
+  
+.contactInfo{
+  width: 50%;
+  height: 90%;
+  position: relative;
+  left:25%;
+  text-shadow: 2px 2px #000000;
+  color: white;
+  font-size: 120%;
+  -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: black;
+  }
+  article.contactInfo{
+    background:url(images/wood1.png) no-repeat center center;
+  background-position: top;
+  background-size: 115% 40%;
+  overflow: auto;
+
+}
+
+table.contact {
+  padding-right: 9%;
+  width: 100%;
+
+
+}
+
+section.conatctIcons{
+    display: inline;
+  }
+
+    .addressIcon{
+      width:8%;
+      padding-left: 15%;
+      padding-bottom: 5%;
+      padding-top: 3%;
+    }
+    .phone{
+      width:10%;
+      padding-left: 25%;
+      padding-bottom: 5%;
+      padding-top: 3%;
+    }
+    .open{
+      width:16%;
+      padding-left: 18%;
+      padding-bottom: 5%;
+      padding-top: 3%;
+    }
+
+    .phoneTable{
+      text-align: center;
+    }
+
+    .hours{
+      text-align: center;
+      
+    }
+    .address{
+      text-align: center;
+      
+    }
+
+.map{
+  
+  position: relative;
+  padding-left: 18%;
+  padding-right: 20%;
+  padding-top: 12%;
+  text-shadow: none;
+  color: white;
+  opacity: 1.5;
+}
+
+/*  Footer  */
+footer{
+  padding-top: 5%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px #000000;
+}
+  /*reservation form */
+
+ 
+     
+ input[type=text], input[type=date], input[type=time] {
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+  #form{
+    background:url(images/paper.png) no-repeat center center;
+    background-position: center;
+     background-size: 50% 100%;
+    font-family: Algerian  ;
+    letter-spacing: 4px;
+    padding-bottom: 40px;
+    padding-top:5%; 
+    margin-top: 10%;
+  }
+
+
+
+.formPhp{
+   background:url(images/paper.png) no-repeat center center;
+    background-position: center;
+     background-size: 50% 100%;
+  font-family: Algerian  ;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+    padding-top:20px; 
+    margin-top: 5%;
+}
+
+#submit {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #9d080a;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#submit:hover {
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   cursor: pointer;
+  text-decoration: none;
+}
+
+

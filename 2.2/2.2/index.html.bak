@@ -1,0 +1,218 @@
+<!Doctype html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" type="image/png" href="images/pizza.png" >
+	<title>Mackie's Pizza</title>
+	<meta name="keywords" content="pizza, burgers, Aarhus, Mackies, retro, american,  etc.">
+    <meta name="description" content="Retro american pizzeria located in the center of Aarhus.">
+
+	
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollify.min.js"></script>
+	<script>
+				$(function() {
+					$.scrollify({
+		section : ".section",
+		sectionName : false,
+		easing: "easeOutExpo",
+		scrollSpeed: 1100,
+		offset : -250,
+		scrollbars: true,
+		standardScrollElements: "",
+		setHeights: true,
+		before:function() {},
+		after:function() {},
+		afterResize:function() {},
+		afterRender:function() {}
+	});
+				})
+			</script>
+
+</head>
+<body>
+	<script type="text/javascript" src="js/script.js"></script>
+	
+
+	<header>
+		<a href="#"><img src="images/american.png" height="" alt="danish" class="language" /></a>
+    	<a href="#"><img src="images/danish.png" alt="american" class="language"/></a>
+	</header>
+
+
+	<nav>
+		<ul>
+  <a href="index.html"><img src="images/logo.png" width="125px" height="80px" alt="logo" class="logo" /></a>
+  <li><a  href="index.html">Home</a></li>
+  <li><a href="menusubpage.html">Menu</a></li>
+  <li><a href="didyouknow.html">Did you know?</a></li>
+  <li><a href="#">Contact</a></li>
+
+	<!--	Social Media 	-->
+  <a href="#"><img src="images/fb.png" width="30" height="30" alt="facebook" class="socialmedia" /></a>
+  <a href="#"><img src="images/twt.png" width="30" height="30" alt="twitter" class="socialmedia"/></a>
+  <a href="#"><img src="images/mail.png" width="30" height="30" alt="mail" class="socialmedia"/></a>
+	   </ul>
+  </nav>
+
+   <section class="section" id="slide">
+	
+	
+
+	<!--	Badges 	-->
+	<ul class="badges">
+    <a href="book.php"><img  class="book"src="images/book.png"  alt="book"  /></a>
+  <a href="#"><img class="take" src="images/takeaway.png"  alt="takeaway" /></a>
+  <a href="#"><img class="offers"src="images/offers.png"  alt="offers" /></a>
+</ul>
+<!--	 Arrow		-->
+	<section class="arrow">
+		<img src="images/scroll.png" class="scroll" >
+	</section>
+	<!--	 Arrow	End 	-->
+</section>
+	
+	
+
+	<!--	Menu Section 	-->
+	<section class="section">
+		<img src="images/banner.png" id="banner">
+	<article id="mainmenu">
+	<section>
+		<ul id="menu">
+
+			<li ><a href="#"><img class="pizza" src="images/menu/pizza.png"></a></li>
+			<li ><a href="#"><img class="burger" src="images/menu/burger.png"></a></li>
+			<li ><a href="#"><img class="salad" src="images/menu/salad.png"></a></li>
+			<li ><a href="#"><img class="sandwich" src="images/menu/sandwich.png"></a></li>
+			<li ><a href="#"><img class="steak" src="images/menu/steak.png"></a></li>
+			<li ><a href="#"><img class="wine" src="images/menu/wine.png"></a></li>
+			<li ><a href="#"><img class="beer" src="images/menu/beer.png"></a></li>
+			<li ><a href="#"><img class="softdrink" src="images/menu/softdrink.png"></a></li>
+			<li ><a href="#"><img class="coffee" src="images/menu/coffee.png"></a></li>
+		</ul>
+	</section>
+	
+		
+	<section id="menucontent">
+
+		<table>
+			<tr>
+				<th class="food">Caledonian</th>
+				<th class="price">65/105 - DKK</th>
+			</tr>
+			<tr>
+				<th class="food">Milano</th>
+				<th class="price">78/135 - DKK</th>
+			</tr>
+			<tr>
+				<th class="food">Ploughman Pizza</th>
+				<th class="price">78/135 - DKK</th>
+			</tr>
+			<tr>
+				<th class="food">Danish Style</th>
+				<th class="price">80/140 - DKK</th>
+			</tr>
+			<tr>
+				<th class="food">Mermaind</th>
+				<th class="price">95/175 - DKK</th>
+			</tr>
+			<tr>
+				<th class="food">Highlander</th>
+				<th class="price">85/150 - DKK</th>
+			</tr>
+			<tr>
+				<th class="food">Pepperoni Pizza</th>
+				<th class="price">85/150 - DKK</th>
+			</tr>
+			<tr>
+				<th class="food">Aberdonian</th>
+				<th class="price">95/175 - DKK</th>
+			</tr>
+			<tr>
+				<th class="food">Mackie's Special</th>
+				<th class="price">95/175 - DKK</th>
+			</tr>
+			<tr>
+				<th class="food">British</th>
+				<th class="price">80/140 - DKK</th>
+			</tr>
+			<tr>
+				<th class="food">Pulled Pork</th>
+				<th class="price">95/175 - DKK</th>
+			</tr>
+			<tr>
+				<th class="food">Vegetarian Pizza</th>
+				<th class="price">85/150 - DKK</th>
+			</tr>
+			
+		</table>
+			
+	</section>
+	</article>
+</section>
+	<!--	Menu Section End 	-->
+
+	<!--	Did you Know Section 	-->
+	<section class="section">
+		<img src="images/banner2.png" id="banner">
+	<article id="didyouknow">
+    	<p>Mackie's is an American inspired 
+		   cafe and restaurant where one's 
+		   eyes willalways find something 
+		   new to look at while food is 
+		   being prepared. Come in and 
+	  	   enjoy the good food and 
+		   atmosphere in one Mickey's 
+           lifetime collection of rock
+           legends, movie stars, football
+ 		   star, American Indian, the 
+		   Buddha and our sweet staff.
+      </p>
+      <img id="mackies" src="images/mackies.jpg">
+      <div class="readmore">
+      <a  href="didyouknow.html">Read more </a>
+      </div>
+
+    </article>
+</section>
+
+	<!-- Contact Section 	-->
+	<section class="section">
+		<img src="images/banner3.png" id="banner">
+<div class="contactInfo">
+
+<section class="contactIcons">      
+
+<img class="addressIcon" src="images/address.png">
+<img class="phone" src="images/phone.svg">
+<img class="open" src="images/open.png">
+
+</section>
+      <table class="contact">
+        <tr>
+    		<th class="address">Sankt Clemens Torv 9 <br>8000 Aarhus </th>
+        	<th class="phoneTable">Tel. 86 12 36 61</th>
+    		<th class="hours">Opening Hours <br> All days <br> 11:30 - 22:30</th>
+
+        </tr>
+      </table>
+      	
+        <section class="map">
+
+        <!-- Google maps-->
+			<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:100%;width:110%;'><div id='gmap_canvas' style='height:246px;width:500px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://maps-website.com/'>add google map to website</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=3eb82a345210b8a93d8c2bbb709313f1aa376162'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:18,center:new google.maps.LatLng(56.1564011,10.209037200000012),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(56.1564011,10.209037200000012)});infowindow = new google.maps.InfoWindow({content:'<strong>Mackie\'s Pizza</strong><br>Sankt Clemens Torv 9 <br> Aarhus<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+		
+		<!--	Google Maps End 	-->   
+		</section>     
+	<footer class="footer">
+		<h4> Team 4 &copy; BAAA Project 2.2 Prototype</h4>
+	</footer>
+
+
+
+
+</body>
+</html>
+
