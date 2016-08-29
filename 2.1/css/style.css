@@ -1,0 +1,690 @@
+/* MM   MM    A    DDDD    EEEEEE    BBBBB    YY   YY    W   W   W	IIIIII  L		L	   IIIIII	 A	  MM   MM*/
+/* M M M M   A A   D   D   E         B   BB    YY YY     W   W   W	  II    L		L		 II		A A	  M M M M*/
+/* M  M  M  A   A  D    D  EEEE      BBBBB       YY      W   W   W	  II    L		L		 II	   A   A  M	 M	M*/
+/* M     M  AAAAA  D   D   E         B   BB     YY        W  W  W 	  II	L	    L		 II	   AAAAA  M		M*/
+/* M     M  A   A  DDDD    EEEEEE    BBBBB     YY          WW WW  	IIIIII 	LLLLL   LLLLL  IIIIII  A   A  M	    M*/
+
+@font-face {
+    font-family: defused;
+    src: url(Smash.ttf);
+}
+
+@font-face {
+    font-family: microsoft_r;
+    src: url(taileb_r.ttf);
+}
+
+@font-face {
+    font-family: microsoft_b;
+    src: url(taileb_b.ttf);
+}
+
+html {
+	padding: 0;
+	margin: 0;
+	background: #000;
+}
+
+/* ------- DESKTOP ------- */
+
+body {
+	padding:0;
+	margin:0;
+    font-family: 'microsoft_r', sans-serif;
+}
+
+div#wrapper {
+	background-image: url('../images/grid.png');
+	margin-top:-50px;
+}
+
+/* ------------- START OF TOPNAV ------------- */
+
+	header {
+		width: 100%;
+		height: 150px;
+		overflow: hidden;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 999;
+		border-bottom:1px solid rgba(255,255,255,0.25)!important;
+		-webkit-transition: height 0.6s;
+		-moz-transition: height 0.6s;
+		-ms-transition: height 0.6s;
+		-o-transition: height 0.6s;
+		transition: height 0.6s;
+	}
+	header #logo {
+		display: inline-block;
+		width:300px;
+		height: 150px;
+		line-height: 150px;
+		margin-left: 75px;
+		-webkit-transition: all 0.6s;
+		-moz-transition: all 0.6s;
+		-ms-transition: all 0.6s;
+		-o-transition: all 0.6s;
+		transition: all 0.6s;
+	}
+	header nav#desktop {
+		display: inline-block;
+		float: right;
+	}
+	header nav#desktop a {
+		line-height: 150px;
+		margin-left: 20px;
+		color: #9fdbfc;
+		font-weight: 700;
+		font-size: 19px;
+		-webkit-transition: all 0.6s;
+		-moz-transition: all 0.6s;
+		-ms-transition: all 0.6s;
+		-o-transition: all 0.6s;
+		transition: all 0.6s;
+	}
+	header nav#desktop a:hover {
+		color: white;
+	}
+	header.smaller {
+		background-image: url('../images/background.jpg');
+		height: 75px;
+	}
+	header.smaller #logo {
+		width:150px;
+		height: 75px;
+		line-height: 75px;
+		font-size: 30px;
+	}
+	header.smaller nav#desktop a {
+		line-height: 60px;
+		font-size: 10px;
+	}
+
+  nav#desktop {
+    display:block;
+	float:right;
+	margin-right: 50px;
+  }
+ 
+  nav#desktop ul li {
+	display:inline-block;
+	padding:0 10px 0 10px;
+  }
+  
+  nav#desktop ul li {
+	text-align:center;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+  }
+	
+  nav#desktop ul li:hover, nav#desktop ul li:focus, nav#desktop ul li:active {
+	-webkit-transform: scale(1.2) !important;
+	-moz-transform: scale(1.2) !important;
+	-o-transform: scale(1.2) !important;
+	-ms-transform: scale(1.2) !important;
+	transform: scale(1.2) !important;
+  }
+  
+  nav#desktop ul li .active {
+	background-color: #B70B0B;
+	color:white;
+  }
+  
+  nav#desktop ul li .active:hover {
+	color:white;
+  }
+ 
+  nav#desktop ul li a {
+	text-transform: uppercase;
+    padding: 8px;
+	color:white;
+    font-family:  'defused', 'Open Sans';
+	text-decoration:none;
+	letter-spacing:2px;
+  }
+  
+  nav#desktop ul li a:hover {
+	color: white;
+	   -webkit-transform: scale(1.3) !important;
+	   -moz-transform: scale(1.3) !important;
+	   -o-transform: scale(1.3) !important;
+	   -ms-transform: scale(1.3) !important;
+	   transform: scale(1.3) !important;	
+	
+  }
+
+/* ------------- END OF TOPNAV ------------- */
+
+section {
+}
+
+section h2 {
+	font-family: "microsoft_b", sans-serif;
+	color: #b70b0b;
+	text-shadow: 2px 2px 5px #000;
+	font-size: 32px;
+	text-align:center;
+	margin:0;
+	padding:20px;
+}
+
+/* ------------- SECTION HOME -------------- */
+section#home {
+	background:none;
+}
+
+div.first_content {
+    position: relative;
+    text-align: center;
+    top: 45%;
+}
+
+div.first_content h1{
+	font-size: 60px;
+    line-height: 80px;
+    letter-spacing: -1px;
+    display: block;
+    color: #fff;
+    font-family:  'defused', 'Open Sans';
+}
+div.first_content .buttons{
+	display:inline;
+	margin:0 auto;
+}
+div.first_content .button{
+	text-align:center;
+	display: inline-block;
+    padding: 8px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+div.first_content .button a{
+    background-color: #6bc1b9;
+    color: #fff;
+    border-radius: 2px;
+    padding: 13px 17px;
+    text-decoration: none;
+    /* box-shadow: 0px 1px 0px rgba(255,255,255,0.25) inset, 0px 1px 3px rgba(0,0,0,0.2); */
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+	font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 12px;
+    display: block;
+    transition: border-color 0.2s linear, background-color 0.2s linear;
+    -moz-transition: border-color 0.2s linear, background-color 0.2s linear;
+    -o-transition: border-color 0.2s linear, background-color 0.2s linear;
+    -webkit-transition: border-color 0.2s linear, background-color 0.2s linear;
+}
+div.first_content .button a.primary-color{
+	background-color: #8f0000!important;
+}
+div.first_content .button a.secondary-color{
+	background-color: #333333!important;
+}
+
+/* ------------- END OF HOME SECTION ------------- */
+
+section#welcome {
+	background-image: url('../images/background.jpg');
+}
+
+/* ------------- START OF WELCOME SECTION ------------- */
+
+		.welcome_content{
+			text-align:center;
+		}
+
+		.welcome_boxes{
+			color: white;
+			padding: 0 50px 0 50px;
+		}
+	
+		.welcome_box{
+			display:inline-table;
+			background-color: rgba(255,255,255,0.1);
+			width: 410px;
+			height: 648px;
+			margin: 50px;
+			padding: 0 25px 25px 25px;
+			text-align: left;
+		}
+		
+		h3{
+			text-shadow: 1px 1px 3px #000;
+			font-size: 24px;
+			text-align: center;
+			font-family: 'microsoft_b', sans-serif;
+		}
+		
+		.welcome_box span {
+			font-size: 18px;
+			font-weight: normal;
+			line-height: 24px;
+		}
+		
+		.welcome_box ul li{
+			list-style: none;
+			font-family: 'microsoft_b', sans-serif;
+		}
+		
+		.welcome_box ul li img{
+			width:48px;
+			height:48px;
+			vertical-align:middle;
+		}	
+		
+		.welcome_box .fighters{
+			text-align:center;
+		}
+
+		.welcome_box .fighters img{
+			width:234px;
+		}
+		
+		.welcome_box input[type=text]{
+			background-color: #ebebeb;
+			padding:5px; 
+			border:2px solid #ccc; 
+			-webkit-border-radius: 3px;
+			border-radius: 3px;	
+			width: 300px;
+		}
+		
+		.welcome_box input[type=text]:focus {
+			border-color:#333;
+		}
+		
+		.welcome_box input[type=submit]{
+			background-color: #8f0000;
+			color: #fff;
+			  padding: 10px 20px 10px 20px;
+			  text-decoration: none;
+			  -webkit-border-radius: 2;
+			  -moz-border-radius: 2;
+			  border-radius: 2px;
+			text-transform: uppercase;
+			font-family: 'Open Sans';
+			font-weight: bold;
+			letter-spacing: 2px;
+			font-size: 12px;
+			border:none;
+		}
+
+		.welcome_box input[type=submit]:hover{
+			  background: #e30000;
+			  text-decoration: none;
+		}
+
+/* ------------- END OF WELCOME SECTION -------------- */ 
+
+section#prices {
+	background-image: url('../images/background_dark.jpg');
+}
+
+/* ------------- START OF PRICES SECTION -------------- */
+
+		/* STYLES */
+		
+		#styles {
+			padding: 25px;
+		}
+		
+		#styles ul {
+			display:inline;
+			text-align:center;
+			padding:0;
+		}
+		
+		#styles ul li {
+			background-color: #000;
+			border-radius: 5px 5px 0 0;
+			display:inline-block;
+			width:19%;
+			padding: 10px 0 10px 0;
+			-webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.75);
+			-moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.75);
+			box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.75);
+		}
+		
+		#styles ul li:hover{
+			background-color: #b70b0b;
+			border-radius: 5px 5px 0 0;
+			display:inline-block;
+			width:19%;
+			padding: 10px 0 10px 0;
+			-webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.75);
+			-moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.75);
+			box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.75);
+		}
+		
+		#styles ul li a{
+			text-decoration: none;
+			color: #b70b0b;
+		}
+		
+		#styles ul li:hover a{
+			text-decoration: none;
+			color: white;
+		}		
+		
+		#styles ul li span{
+			padding: 15px 0 15px 0;
+			font-family: 'microsoft_b', 'Open Sans';
+			font-size: 18px;
+		}
+		
+		/* END STYLES */
+
+		.prices_content {
+			padding: 0 50px 50px 50px;
+		}
+		
+		.prices_content_2 {
+			color: white;	
+			background-color: rgba(255,255,255,0.1);
+			max-width: 960px;
+			padding: 0 30px 30px 30px;
+			margin: 0 auto;
+		}
+		
+		.prices_content h3{
+			text-shadow: 2px 2px 5px #000;
+			font-size: 24px;
+			text-align: center;
+			margin: 0;
+			padding: 25px;
+			font-family: 'microsoft_b', sans-serif;
+		}
+		
+		.prices_content_2 span{
+			font-size: 18px;
+		}
+		
+		.prices_content_2 #prices{
+			padding: 25px;
+		}
+	
+		.divider{
+			width: 100%;
+			border-bottom:1px solid #585858;
+		}
+	
+		.prices_content_2 span.header {
+			color: #b70b0b;
+			text-shadow: 2px 2px 5px #000;
+			font-size: 22px;
+			text-align: center;
+			margin: 0;
+			font-family: 'microsoft_b', sans-serif;
+		}
+		
+		.prices_content_2 table {
+			width:100%;
+		}
+	
+		.prices_content_2 table tr th {
+			width:25%;
+			color: #b70b0b;
+			text-shadow: 2px 2px 5px #000;
+			font-size: 18px;
+			margin: 0;
+			font-family: 'microsoft_b', sans-serif;	
+			text-align: center;			
+		}
+		
+		.prices_content_2 table tr td {
+			padding: 5px 25px 5px 25px;
+		}
+		
+		.prices_content_2 table tr td img{
+			vertical-align:middle;
+		}
+		
+		.prices_content_2 table tr td span{
+			padding:0 10px 0 10px;
+			font-size: 14px;
+		}
+		
+		div.boxing_gloves{
+			float:right;
+			margin-top: -100px;
+		}
+		
+		div.boxing_gloves img{
+			width: 160px;
+		}
+
+/* ------------- END OF PRICES SECTION -------------- */
+
+section#reviews {
+	background-image: url('../images/background.jpg');
+}
+
+/* ------------- START OF REVIEWS SECTION -------------- */
+
+.reviews_content {
+	text-align: center;
+	padding:50px;
+}
+
+/* ------------- END OF REVIEWS SECTION -------------- */
+
+/* ------------- START OF GALLERY SECTION -------------- */
+
+section#gallery {
+	background-image: url('../images/background_dark.jpg');
+}
+
+.sec_content{
+	padding:50px;
+	max-width:960px;
+	margin:0 auto;
+}
+
+/* ------------- END OF GALLERY SECTION -------------- */
+
+section#sponsors {
+	background-image: url('../images/background.jpg');
+}
+
+.sponsors_content {
+	text-align: center;
+	padding:50px;
+}
+
+/* ------------- START OF FOOTER ------------- */
+
+	footer {
+		color:#b70b0b;
+		margin: -30px auto;
+		width:100%;
+		height: 100px;
+		background-image: url('../images/background.jpg');
+		line-height:34px;
+		text-align: center;
+		font-family: 'microsoft_b', sans-serif;
+		font-size: 13px;
+		text-decoration:none;
+		letter-spacing:2px;
+	}
+
+	#social_media a{
+		padding: 0 20px 0 20px;
+	}
+
+	#social_media img{
+		max-width: 3%;
+		height: auto;
+		vertical-align: middle;
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+		box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-transition-duration: 0.3s;
+		transition-duration: 0.3s;
+		-webkit-transition-property: transform;
+		transition-property: transform;
+	}
+
+	#social_media img:hover, #social_media img:focus, #social_media img:active {
+	  -webkit-transform: scale(1.3);
+	  transform: scale(1.3);
+	}
+	
+	#male_fighter {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+	
+	#male_fighter img{
+		height: 350px;
+	}
+	
+	#female_fighter {
+		position: absolute;
+		right: 0;
+		bottom: 0;	
+	}
+	
+	#female_fighter img{
+		height: 350px;
+	}
+/* ------------- END OF FOOTER ------------- */
+
+/* ------------- TO TOP BUTTON ------------- */
+
+	#to-top {
+		position: fixed;
+		bottom: 13px;
+		right: 20px;
+		z-index: 99999;
+	}
+	#to-top a {
+		width: 38px;
+		display: block;
+		text-align: center;
+		font: 11px/100% Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #bbb;
+		margin: auto;
+
+		/* transition */
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		transition: 1s;
+	}
+	#to-top a:hover {
+		color: #000;
+	}
+	/* arrow icon (span tag) */
+	#to-top span {
+		width: 38px;
+		height: 38px;
+		display: block;
+		margin-bottom: 7px;
+		background-image: url(../images/to-top.png);
+		background-repeat: no-repeat;
+		background-size: 38px 38px;
+		opacity: 1;
+
+		/* transition */
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		transition: 1s;
+	}
+	#to-top a:hover span {
+		opacity: 0.8;
+	}
+	
+/* ------------- END OF TO TOP BUTTON ------------- */
+
+@media all and (max-width: 1024px) {
+	header {
+		height: 75px;
+		background-image: url('../images/background.jpg');
+	}
+	
+    header #logo {
+        display: inline-block;
+        float: none;
+		margin-left: 35px;
+        height: 75px;
+		width: 150px;
+    }
+    header nav#desktop {
+        display: block;
+		height: 35px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    nav#desktop ul li {
+		display:inline-block;
+		padding:0;
+	}
+    header nav#desktop a {
+		font-size: 10px;
+        line-height: 35px;
+        margin: 0 10px;
+    }
+    header.smaller {
+        height: 75px;
+    }
+    header.smaller #logo {
+        height: 75px;
+		width: 150px;
+    }
+    header.smaller nav#desktop {
+        height: 35px;
+    }
+    header.smaller nav#desktop a {
+        line-height: 35px;
+    }
+    nav#desktop {
+		display:inline-block;
+		float:right;
+		margin-right:0;
+	}
+}
+
+@media screen and (max-width: 600px) {
+ 
+  /* MAIN CONTENT */
+  
+  /* FOOTER */
+  
+  footer {
+	margin:0 auto;
+	width:100%;
+	position:fixed;
+	bottom:0;
+	color:#BABABA;
+	background:#000;
+	line-height:34px;
+	text-align: center;
+	font-size: 10px;
+	text-decoration:none;
+	letter-spacing:1px;
+	border-top: 1px #BABABA solid;
+  }
+
+}
